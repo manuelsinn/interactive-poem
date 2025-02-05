@@ -1,0 +1,4 @@
+Dil bir şekil değiştiricidir.  
+Bulunduğunuz yerlere tutunur,  
+yabancılardan aksan ödünç alır,  
+Gerektiğinde boğazda saklanır.
