@@ -28,6 +28,6 @@ with open(turkish_file, "r", encoding="utf-8") as f:
 # Run TTS
 # Text to speech to a file
 speaker = "manu" # scholz
-tts.tts_to_file(text=poem_english, speaker_wav=speaker + ".wav", language="en", file_path="output_en.wav")
-tts.tts_to_file(text=poem_arabic, speaker_wav=speaker + ".wav", language="ar", file_path="output_ar.wav")
-tts.tts_to_file(text=poem_turkish, speaker_wav=speaker + ".wav", language="tr", file_path="output_tr.wav")
+tts.tts_to_file(text=poem_english, speaker_wav="media/input/" + speaker + ".wav", language="en", file_path="media/output/output_en.wav")
+tts.tts_to_file(text=poem_arabic, speaker_wav="media/input/" + speaker + ".wav", language="ar", file_path="media/output/output_ar.wav")
+tts.tts_to_file(text=poem_turkish, speaker_wav="media/input/" + speaker + ".wav", language="tr", file_path="media/output/output_tr.wav")
